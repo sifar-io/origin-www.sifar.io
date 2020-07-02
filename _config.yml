@@ -1,2 +1,5 @@
 theme: jekyll-theme-minimal
+title: sifar
+description: It encircles everything but contains nothing!
 logo: sifar.png
+show_downloads: false
