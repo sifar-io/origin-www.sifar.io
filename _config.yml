@@ -1,5 +1,20 @@
-theme: jekyll-theme-minimal
-title: sifar
-description: It encircles everything but contains nothing!
-logo: sifar.png
-show_downloads: false
+title: Sifar.IO
+email: hello@sifar.io
+# description: > # this means to ignore newlines until "baseurl:"
+description: "Access your localhost"
+baseurl: "" #"/sysb" # the subpath of your site, e.g. /blog/
+url: "https://www.sifar.io" # the base hostname & protocol for your site
+
+twitter_username: sifar_io
+github_username: sifar-io
+
+# Build settings
+markdown: kramdown
+
+#### Testing here ####
+# https://www.sysb.ai/blog/tips-and-tricks-for-using-curl.html
+defaults:
+  - scope:
+      path: '_posts'
+    values:
+      permalink: /blog/:title:output_ext
