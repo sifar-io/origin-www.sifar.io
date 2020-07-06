@@ -1,0 +1,10 @@
+<div class="header post_header">
+    <h1 class="section-heading">{{ page.title }}</h1>
+</div>
+
+<section class="post_content_box center container" align="center">
+    {% if page.image %}
+    <img class="post_top_image" src="{{page.image | relative_url}}" alt="post image">
+    {% endif %}
+    {{content}}
+</section>
