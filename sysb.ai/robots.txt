@@ -1,4 +1,0 @@
-Sitemap: https://www.sysb.ai/sitemap.xml
-
-User-agent: * 
-allow: *
