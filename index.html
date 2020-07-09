@@ -4,16 +4,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>sifar</title>
+    <title>Sifar.IO</title>
+    <meta name="description" content="Backend for static web sites">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <div>
         <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-            <div class="container"><a class="navbar-brand" href="#">Sifar.io</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container"><a class="navbar-brand text-primary" href="#">Sifar.IO</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse"
                     id="navcol-1">
                     <ul class="nav navbar-nav mr-auto">
@@ -21,13 +31,92 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Services</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Pricing</a></li>
-                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Docs</a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">How To</a><a class="dropdown-item" role="presentation" href="#">Example</a><a class="dropdown-item" role="presentation" href="#">API</a></div>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Misc</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Docs</a><a class="dropdown-item" role="presentation" href="#">Careers</a><a class="dropdown-item" role="presentation" href="#">Tips and Tricks</a></div>
                         </li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
-                    </ul><span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-light action-button" role="button" href="#">Sign Up</a></span></div>
+                    </ul><span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-light action-button" role="button" href="#" style="background-color: #007bff;">Sign Up</a></span></div>
             </div>
         </nav>
+    </div>
+    <div class="highlight-phone">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="intro">
+                        <h2>Form Backend</h2>
+                        <p>We are simply a backend to your static web site. You need not to host a server to get the data from the form embedded in your page</p><a class="btn btn-primary" role="button" href="#">Get Started</a></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-none d-md-block iphone-mockup"><img class="device" src="assets/img/iphone.svg">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="highlight-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">We are hosted on S3</h2>
+                <p class="text-center">We eat our own dogfood and encourage serverless architecture, which not only save on computing cost but scalability and maintenance is simple</p>
+            </div>
+        </div>
+    </div>
+    <div class="features-boxed">
+        <div class="container">
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-map-marker icon"></i>
+                        <h3 class="name">Works everywhere</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-clock-o icon"></i>
+                        <h3 class="name">Always available</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-list-alt icon"></i>
+                        <h3 class="name">Customizable </h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="newsletter-subscribe">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Subscribe for our Newsletter</h2>
+                <p class="text-center">We send the bi-weekly tips and tricks on how to effectively integrate the form backend to your web site</p>
+            </div>
+            <form class="form-inline" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+            </form>
+        </div>
+    </div>
+    <div class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Contact us</h2>
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="form-group text-center"><button class="btn btn-primary" type="submit">send </button></div>
+        </form>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Sifar Inc © 2020</p>
+        </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
