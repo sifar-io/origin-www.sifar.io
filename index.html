@@ -28,22 +28,22 @@
 
 <body>
     <div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-            <div class="container"><a class="navbar-brand text-primary" href="#">Sifar.IO</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse"
-                    id="navcol-1">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button">
+            <div class="container"><a class="navbar-brand text-primary" href="index.html">Sifar.IO</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="#">Services</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#pricing">Pricing</a></li>
                         <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Misc</a>
                             <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Docs</a><a class="dropdown-item" role="presentation" href="#">Careers</a><a class="dropdown-item" role="presentation" href="#">Tips and Tricks</a></div>
                         </li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul><span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-light action-button" role="button" href="#" style="background-color: #007bff;">Sign Up</a></span></div>
-            </div>
-        </nav>
+    </div>
+    </nav>
     </div>
     <div class="highlight-phone">
         <div class="container">
@@ -61,21 +61,21 @@
             </div>
         </div>
     </div>
-    <div class="highlight-clean">
+    <div class="highlight-clean" style="padding-bottom: 50px;">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">Serverless is the new backend</h2>
-                <p class="text-center">We eat our own dogfood and encourage serverless architecture, which not only save on computing cost but scalability and maintenance is also simple</p>
+                <h2 class="text-center">Backend-as-a-service</h2>
+                <p class="text-center">We eat our own dogfood and encourage serverless architecture</p>
             </div>
         </div>
     </div>
-    <div class="features-boxed">
+    <div id="contact" class="features-boxed">
         <div class="container">
             <div class="row justify-content-center features">
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box">
-                        <form method="post">
-                            <h2 class="text-center">Contact us</h2>
+                    <div class="box" style="background-color: #5bc0de;">
+                        <form method="post" action="https://send.sifar.io/balbir97@gmail.com">
+                            <h2 class="text-center">Sales Form</h2>
                             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
                             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                             <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="7"></textarea></div>
@@ -84,9 +84,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box">
-                        <form method="post">
-                            <h2 class="text-center">Contact us</h2>
+                    <div class="box" style="background-color: #d9534f;">
+                        <form method="post" action="https://send.sifar.io/balbir97@gmail.com">
+                            <h2 class="text-center">Feedback Form</h2>
                             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
                             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                             <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="7"></textarea></div>
@@ -95,9 +95,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box">
-                        <form method="post">
-                            <h2 class="text-center">Contact us</h2>
+                    <div class="box" style="background-color: 	#5cb85c;">
+                        <form method="post" action="https://send.sifar.io/balbir97@gmail.com">
+                            <h2 class="text-center">Contact Form</h2>
                             <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
                             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                             <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="7"></textarea></div>
@@ -167,14 +167,14 @@
         </div>
     </div>
     <div class="brands"><a href="#"> <img src="assets/img/instacart.png"><img src="assets/img/kickstarter.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"><img src="assets/img/twitter.png"></a></div>
-    <div class="features-boxed">
+    <div id="pricing" class="features-boxed">
         <div class="container">
             <div class="row justify-content-center features">
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box">
                         <div class="row">
                             <div class="col">
-                                <h1 class="border rounded" style="background-color: rgb(239,241,244);padding-top: 10px;padding-bottom: 10px;">Free</h1>
+                                <h1 class="border rounded" style="background-color: rgb(239,241,244);padding-top: 10px;padding-bottom: 10px;font-size: 28px;">Free</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -183,12 +183,12 @@
                             </div>
                         </div>
                         <ul class="list-group" style="margin-bottom: 10px;">
-                            <li class="list-group-item"><span>10 form 1 domain</span></li>
-                            <li class="list-group-item"><span>100 email per day</span></li>
-                            <li class="list-group-item"><span>Email support</span></li>
+                            <li class="list-group-item border-white"><span>10 form 1 domain</span></li>
+                            <li class="list-group-item border-white"><span>100 email per day</span></li>
+                            <li class="list-group-item border-white"><span>Email support</span></li>
                         </ul>
                         <div class="row">
-                            <div class="col"><button class="btn btn-primary border rounded" type="button">Sign up for free</button></div>
+                            <div class="col"><button class="btn btn-primary border rounded" type="button" style="font-size: 21px;">Sign up for free</button></div>
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                     <div class="box">
                         <div class="row">
                             <div class="col">
-                                <h1 class="border rounded" style="background-color: rgb(239,241,244);padding-top: 10px;padding-bottom: 10px;">Regular</h1>
+                                <h1 class="border rounded" style="background-color: rgb(239,241,244);padding-top: 10px;padding-bottom: 10px;font-size: 28px;">Regular</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -205,12 +205,12 @@
                             </div>
                         </div>
                         <ul class="list-group" style="margin-bottom: 10px;">
-                            <li class="list-group-item"><span>100 form 1 domain</span></li>
-                            <li class="list-group-item"><span>1000 email per day</span></li>
-                            <li class="list-group-item"><span>24x7 Email and chat support</span></li>
+                            <li class="list-group-item border-white"><span>100 form 1 domain</span></li>
+                            <li class="list-group-item border-white"><span>1000 email per day</span></li>
+                            <li class="list-group-item border-white"><span>24x7 Email and chat support</span></li>
                         </ul>
                         <div class="row">
-                            <div class="col"><button class="btn btn-primary border rounded" type="button" style="font-size: 16px;">Subscribe</button></div>
+                            <div class="col"><button class="btn btn-primary border rounded" type="button" style="font-size: 21px;">Subscribe</button></div>
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                     <div class="box">
                         <div class="row">
                             <div class="col">
-                                <h1 class="border rounded" style="background-color: rgb(239,241,244);padding-top: 10px;padding-bottom: 10px;">Enterprise</h1>
+                                <h1 class="border rounded" style="background-color: rgb(239,241,244);padding-top: 10px;padding-bottom: 10px;font-size: 28px;">Enterprise</h1>
                             </div>
                         </div>
                         <div class="row">
@@ -227,12 +227,12 @@
                             </div>
                         </div>
                         <ul class="list-group" style="margin-bottom: 10px;">
-                            <li class="list-group-item"><span>Unlimited form</span></li>
-                            <li class="list-group-item"><span>Unlimited email</span></li>
-                            <li class="list-group-item"><span>Dedicated support Staff</span></li>
+                            <li class="list-group-item border-white"><span>Unlimited form</span></li>
+                            <li class="list-group-item border-white"><span>Unlimited email</span></li>
+                            <li class="list-group-item border-white"><span>Dedicated support Staff</span></li>
                         </ul>
                         <div class="row">
-                            <div class="col"><button class="btn btn-primary border rounded" type="button">Contact us</button></div>
+                            <div class="col"><button class="btn btn-primary border rounded" type="button" style="font-size: 21px;">Contact us</button></div>
                         </div>
                     </div>
                 </div>
@@ -241,7 +241,7 @@
     </div>
     <div class="newsletter-subscribe">
         <div class="container">
-            <form class="form-inline" method="post">
+            <form class="form-inline" method="post" action="https://send.sifar.io/balbir97@gmail.com">
                 <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Bi-weekly Newsletter"></div>
                 <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
             </form>
