@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Brands.css">
     <link rel="stylesheet" href="assets/css/clean-responsive-pricing-1.css">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
     <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
     <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -28,19 +30,19 @@
 
 <body>
     <div>
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button" style="padding-bottom: 0px;">
             <div class="container"><a class="navbar-brand text-primary" href="index.html">Sifar.IO</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link navbar-link" href="#">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Services</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#pricing">Pricing</a></li>
-                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Misc</a>
+                        <li class="nav-item" role="presentation"><a class="nav-link navbar-link" data-bs-hover-animate="pulse" href="#">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#">About</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#">Services</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#pricing">Pricing</a></li>
+                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" data-bs-hover-animate="pulse" href="#">Misc</a>
                             <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Docs</a><a class="dropdown-item" role="presentation" href="#">Careers</a><a class="dropdown-item" role="presentation" href="#">Tips and Tricks</a></div>
                         </li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" data-bs-hover-animate="pulse" href="#contact">Contact</a></li>
                     </ul><span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-light action-button" role="button" href="#" style="background-color: #007bff;">Sign Up</a></span></div>
     </div>
     </nav>
@@ -65,7 +67,7 @@
         <div class="container">
             <div class="row no-gutters" style="margin-right: -15px;margin-left: -15px;font-size: 18px;">
                 <div class="col"></div>
-                <div class="col-7"><code class="d-table-cell" style="margin: 0px;margin-left: 0px;color: #0069d9;">&lt;form action="<strong>https://send.sifar.io/XXXXXX</strong>" method="POST"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="email" &nbsp;name="email"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="submit" value="Send"&gt;<br>&lt;/form&gt;<br></code></div>
+                <div class="col-7" data-bs-hover-animate="pulse"><code class="d-table-cell" style="margin: 0px;margin-left: 0px;color: #0069d9;font-family: Aldrich, sans-serif;">&lt;form action="<strong>https://send.sifar.io/XXXXX</strong>" method="POST"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="email" &nbsp;name="email"&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp; &lt;input type="submit" value="Send"&gt;<br>&lt;/form&gt;<br></code></div>
                 <div
                     class="col"></div>
         </div>
@@ -264,6 +266,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
 </body>
 
 </html>
